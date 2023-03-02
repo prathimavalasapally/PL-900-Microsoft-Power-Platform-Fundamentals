@@ -51,7 +51,7 @@ In this Module 0 lab, you will acquire a Power Platform trial and access the Pow
 
 1. Select **Environments** and click **+ New**.
 
-    1. For **Name**, enter **[My Initials] Practice** (Example: AJ Practice).
+    1. For **Name**, enter **Practice[DeploymentId]** (Example: Practice255365).
 
     1. For **Type**, select **Trial** (do not select the Trial
         (subscription-based) option).

@@ -42,7 +42,7 @@ the unique code assigned to the visit when a visit is created.
 
 1.  Navigate to <https://make.powerapps.com>. You may need to reauthenticate - click **Sign in** and follow instructions if needed.
 
-2.  Select your **[my initials] Practice** environment at the top right if it is
+2.  Select your **Practice[DeploymentId]** environment at the top right if it is
     not already selected.
 
 3.  In the left navigation, select **Flows**.
@@ -138,7 +138,7 @@ Leave this flow tab open for the next task. You flow should look approximately l
 
 1.  Open a new tab in your browser and navigate to <https://make.powerapps.com>.
 
-2.  Select your **[my initials] Practice** environment at the top right if it is
+2.  Select your **Practice[DeploymentId]** environment at the top right if it is
     not already selected.
 
 3.  Click **Apps** and select the **Bellows Campus Management** model-driven app you created earlier.

@@ -58,7 +58,7 @@ We would like to assign each visit a unique number that can be easily entered an
 
 1. Sign into [https://make.powerapps.com](https://make.powerapps.com/) (if you are not already signed in)
 
-1. Select your **[my initials] Practice** environment at the top right if it is not already selected.
+1. Select your **Practice[DeploymentId]** environment at the top right if it is not already selected.
 
 1. Using the navigation on the left, expand **Dataverse**, and select **Tables**.
 
@@ -172,7 +172,7 @@ We would like to assign each visit a unique number that can be easily entered an
 
 2. If not already signed in, sign in to [https://make.powerapps.com](https://make.powerapps.com/).
 
-3. Select your **[my initials] Practice** environment at the top right if it is not already selected.
+3. Select your **Practice[DeploymentId]** environment at the top right if it is not already selected.
 
 4. Click on the Waffle button in the upper left corner to change applications and select **OneDrive**. (It may take a moment for your OneDrive to be set up. Click **Your OneDrive is ready** when you see it on the screen.)
 
@@ -186,7 +186,7 @@ We would like to assign each visit a unique number that can be easily entered an
 
 1. If not already signed in, sign in to [https://make.powerapps.com](https://make.powerapps.com/).
 
-2. Select your **[my initials] Practice** environment at the top right if it is not already selected.
+2. Select your **Practice[DeploymentId]** environment at the top right if it is not already selected.
 
 3. Using the navigation on the left, expand **Dataverse**, and select **Tables**.
 
@@ -230,6 +230,24 @@ We would like to assign each visit a unique number that can be easily entered an
 18. Click **Publish**.
 
 **Note:** It can take several minutes for your data to import into your table. Don’t worry if you get a few errors, that is normal, and will not impact the rest of the course.
+
+19. Under **Visit columns and data** section, click on drop-down button **more** select the following, and click on **save**.
+
+	| Select columns  |
+	|:----------------|
+	| Name (Primary)  |
+	| Actual End     | 
+	| Actual Start             |
+	| Code            |
+	| Scheduled End   |
+	| Scheduled start |
+	
+ 	![](media/Mod2-t2-s19a.png)
+	
+20. Below are the outputs you can view.
+
+	![](media/Mod2-t2-s19b.png)
+	
 
 ### Task \#3: Verify Data Import
 
