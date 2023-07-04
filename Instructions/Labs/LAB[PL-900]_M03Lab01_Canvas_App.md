@@ -35,7 +35,7 @@ We will follow the below outline to design the canvas app:
 
 2.  Select your **Practice[DeploymentId]** environment at the top right if it is not already selected.
 
-3.  If necessary, click the **Home** icon on the left side of the screen. Under the **Start from** section, select **Dataverse**.
+3.  If necessary, click the **Home** icon on the left side of the screen. Select **Create** and then select **Dataverse**.
 
 4.  Select your Dataverse connection.
 
