@@ -63,9 +63,11 @@ In this Module 0 lab, you will acquire a Power Platform trial and access the Pow
 
     1. Leave all other selections as default and click **Next**.
   
-    1. On the next tab, Click **+ Select** under the **Security group** and select **none** under open access and click **Done**.
+    1. Click the **+ Select** button under the **Security group** heading.
+   
+    1. Select the **None** item under the **Open access** heading and then select **Done**..
 
-    1. Leave rest of the selections as default and click **Save**.
+    1. Leave the remaining options at their defaults and select **Save**.
 
 1. Your **Practice** environment should now show in the list of Environments.
 
