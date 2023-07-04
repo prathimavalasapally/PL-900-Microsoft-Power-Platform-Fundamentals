@@ -1,8 +1,8 @@
----
+<!--
 lab:
     title: 'Lab 0: Validate lab environment'
     module: 'Module 0: Course introduction'
----
+-->
 
 # Lab 0: Validate lab environment
 
@@ -25,12 +25,15 @@ In this Module 0 lab, you will acquire a Power Platform trial and access the Pow
 
 1. Navigate to <https://powerapps.microsoft.com> and click **Start free**.
 
-1. Under **Let's get you started**, enter the email address from your Microsoft 365 credentials in the text box that says **Enter your work email address** and click **Next**.
+1. Under **Let's get you started**, enter the email address <inject key="AzureAdUserEmail"></inject> in the text box and click **Next**.
 
 1. If you see a prompt that you have an existing account with Microsoft. Select **Sign in**.
 
-1. Enter the password provided by the Authorized Lab Hoster and sign in.
+1. Enter the password provided below and sign in.
+   * Password: <inject key="AzureAdUserPassword"></inject>
 
+1. If prompted for multifactor authentication, select **Ask Later**.
+    
 1. Select **Yes** to stay signed in.
 
 1. Do not change country.
@@ -51,16 +54,20 @@ In this Module 0 lab, you will acquire a Power Platform trial and access the Pow
 
 1. Select **Environments** and click **+ New**.
 
-    1. For **Name**, enter **Practice[DeploymentId]** (Example: Practice255365).
+    1. For **Name**, enter **Practice<inject key="DeploymentID" enableCopy="false"/>** .
 
     1. For **Type**, select **Trial** (do not select the Trial
         (subscription-based) option).
 
-    1. Change the toggle on **Create a database for this environment?** to **Yes**.
+    1. Change the toggle on **Add a Dataverse data store?** to **Yes**.
 
     1. Leave all other selections as default and click **Next**.
+  
+    1. Click the **+ Select** button under the **Security group** heading.
+   
+    1. Select the **None** item under the **Open access** heading and then select **Done**..
 
-    1. On the next tab, leave all selections as default and click **Save**.
+    1. Leave the remaining options at their defaults and select **Save**.
 
 1. Your **Practice** environment should now show in the list of Environments.
 

@@ -38,21 +38,24 @@ We will follow the below steps to design and create a Power BI dashboard:
 
 ### Task \#1: Prepare Power BI service
 
-1.  You should have a visits.pbix file stored on your virtual machine in C:/LabFiles. Download [visits.pbix](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/raw/master/Allfiles/visits.pbix) and save on your computer, if it's not already there.
+1.  You should have a **visits.pbix** file stored on your virtual machine in **C:\AllFiles\PL-900-Microsoft-Power-Platform-Fundamentals-master\Allfiles**. If it's not already there, download file using this link [visits.pbix](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/raw/master/Allfiles/visits.pbix) .
 
-2.  Open a new tab and navigate to <https://app.powerbi.com/> and sign in if needed.
+1.  Open a new tab and navigate to <https://app.powerbi.com/> and sign in if needed.
+       1.  If prompted with "Lets get you started", click on **Continue**.
+       2.  For **Phone number**, enter `0123456789` and select **Get Started**.
+       3.  If prompted again, select **Get Started**
 
-3.  Select **My workspace** from the left side navigation.
+1.  Select **My workspace** from the left side navigation.
 
-5.  Select **Upload** then **Browse**.
+1.  Select **Upload** then **Browse**.
 
-6.  Locate and select the **visits.pbix** file you have downloaded earlier. 
+1.  Locate and select the **visits.pbix** file you have downloaded earlier. 
 
-7.  Once the data load is complete, select the **visits** report.
+1.  Once the data load is complete, select the **visits** report.
 
     Note that the Type is set to **Report**, do not select the Dataset.
 
-8.  Select **Edit**. 
+1.  Select **Edit**. 
 
     If the **Edit** menu item is not visible, select the ellipsis **...** and then select **Edit**.
 
@@ -69,7 +72,7 @@ You have now setup Power BI service to use for your labs.
 
 4.  Resize the pie chart using corner handles so that all chart components are visible.
 
-5.  Click on the report outside of the pie chart to deselect it and select stacked column chart in **Visualizations** pane.
+5.  Click on the report outside of the pie chart to deselect it and select **stacked column chart** in **Visualizations** pane.
 
 6.  Press the drop-down arrow beside **bc_Visit** in the Fields pane. Drag the **Visit** field and drop it into **Y-axis** target box.
 
