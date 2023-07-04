@@ -79,9 +79,7 @@ The header is the top right area of the form. You may need to collapse the Prope
 
 9. Select **Owner** field. In the Properties panel, change the **Label** to **Host**
 
-10. Click **Save** at the top right and wait for the save to complete.
-
-11. Click **Publish** at the top right and wait for the publishing to complete.
+10. Click **Save and publish** at the top right and wait for for the publishing to complete.
 
 12. If the edit view opened in a new browser tab or window, close it. Otherwise, click **Back** at the top left of the screen. You should now be back to the Visit tables Forms.
 
@@ -111,10 +109,7 @@ In this task, we will modify the default Active Visits view and create a new vie
 
 6. Select **Scheduled Start** to change the sort order to **Newer to Older**.
 
-7. Click **Save** and wait until the changes are saved.
-
-8. Click **Publish** and wait for the publishing to complete.
-
+7. Click **Save and publish** and wait for the publishing to complete.
 
 ### Task #3: Create new view for today’s visits
 
@@ -140,10 +135,7 @@ IMPORTANT: Make sure that you do not close the Active Visits view, as we will be
 
 **Note:** Since we no longer filter on the view status, we will get all today’s visits including completed ones. These fields will help to differentiate completed visits and visits in progress.
 
-9. Click **Save** and wait until the changes are saved.
-
-10. Click **Publish** and wait for the publishing to complete.
-
+9. Click **Save and Publish** and wait for the publishing to complete.
 
 ## Exercise 2: Create Model-driven app
 
@@ -182,17 +174,13 @@ For simplicity and time’s sake, we will not be addressing some of the Visit co
 
 8. Using the navigation icons on the left side of the screen, select **Navigation**.
 
-9. In the Navigation Pane, select **Group 1** below where it says Navigation bar. You may need to expand the menu on the left.
+9. In the Navigation Pane, select **New Group** below where it says Navigation bar. You may need to expand the menu on the left.
 
 10. On the right side of the screen, in the **Display options** section, change the **Title** property to **Security**.
 
-11. In the Navigation Pane, under the Security group, select **SubArea1**. 
+11. Select **Save** and wait until the changes are saved. 
 
-12. Select the **Ellipsis**, and from the menu that appears, select **Remove from navigation**. 
-
-13. Select **Save** and wait until the changes are saved. 
-
-14. Once the **Save** is complete, select the **Publish** button to publish your changes. 
+12. Once the **Save** is complete, select the **Publish** button to publish your changes. 
 
 
 ### Task #2: Test app
