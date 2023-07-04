@@ -1,9 +1,3 @@
----
-lab:
-    title: 'Lab 1: Data Modeling'
-    module: 'Module 2: Introduction to Microsoft Dataverse'
----
-
 # Lab 1: Data Modeling
 
 ## Scenario
