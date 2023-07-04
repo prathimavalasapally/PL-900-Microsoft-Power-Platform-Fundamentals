@@ -73,13 +73,9 @@ the unique code assigned to the visit when a visit is created.
 
 5.  Select the **Row ID** field. Notice that a window pops up to select Dynamic content or Expressions.
 
-6.  In the **Row ID** field, select **Visitor (Value)** from the Dynamic
-        content list. In this step, you are looking up the Contact for the Visit row that was created to trigger this flow. Since email address is part of the Contact table, you will need this information to send the email to the visitor.
+6.  In the **Row ID** field, select **Visitor (Value)** from the Dynamic content list. In this step, you are looking up the Contact for the Visit row that was created to trigger this flow. Since email address is part of the Contact table, you will need this information to send the email to the visitor.
 
-7.  On this action, click the ellipsis (**...**) and click **Rename**.
-        Rename this action **"Get the Visitor"**. This is a good practice, so
-        you and other flow editors can understand the purpose of the step
-        without having to dive into the details.
+7.  On this action, click the ellipsis (**...**) and click **Rename**. Rename this action **"Get the Visitor"**. This is a good practice, so you and other flow editors can understand the purpose of the step without having to dive into the details.
 
 ### Task \#3: Create a step to send an email to the visitor
 
@@ -88,22 +84,17 @@ the unique code assigned to the visit when a visit is created.
 
 2.  Search for *mail*, select **Office 365 Outlook** connector and **Send an email (V2)** action.
 
-3.  If asked to Accept terms and conditions for using this action, click
-        **Accept**.
+3.  If asked to Accept terms and conditions for using this action, click **Accept**.
 
 4.  Select **Add dynamic content** under the **To** field. 
     
-5.  Select **Email** from the Dynamic content list.
-        > Notice that it is beneath the **Get the visitor** header. This means you
-        are selecting the Email that is related to the Visitor that you looked
-        up in the previous step.
+5.  Select **Email** from the Dynamic content list. 
+       >    Notice that it is beneath the **Get the visitor** header. This means you are selecting the Email that is related to the Visitor that you looked up in the previous step.
 
-6.  Enter **Your scheduled visit to Bellows College** in the **Subject**
-        field.
+6.  Enter **Your scheduled visit to Bellows College** in the **Subject** field.
 
 7.  Enter the following text in **Email Body**:
-
->   Dynamic content needs to be placed where fields are named in brackets. It is recommended to copy & paste all text first and then add dynamic content in the correct places.
+    >   Dynamic content needs to be placed where fields are named in brackets. It is recommended to copy & paste all text first and then add dynamic content in the correct places.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
    Dear {First Name},
@@ -116,11 +107,11 @@ the unique code assigned to the visit when a visit is created.
    Bellows College
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-8.  Highlight the **{First Name}** text. Replace it with the **First Name** field from the **Get the Visitor** step.
+8.  Highlight the **{First Name}** text. Replace it with the **First Name** field from the **Dynamic content** list.
 
-9.  Highlight the **{Scheduled Start}** text. Replace it with the **Scheduled Start** field **When a visit is added** step.
+9.  Highlight the **{Scheduled Start}** text. Replace it with the **Scheduled Start** field **Dynamic content** list.
 
-10.  Highlight the **{Scheduled End}** text. Replace it with the **Scheduled End** field from the **When a visit is added** step.
+10.  Highlight the **{Scheduled End}** text. Replace it with the **Scheduled End** field from the **Dynamic content** list.
 
 11.  Click **Save**.
 
