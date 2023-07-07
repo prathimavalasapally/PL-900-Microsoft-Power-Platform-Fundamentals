@@ -33,7 +33,7 @@ We will follow the below outline to design the canvas app:
 
 1.  Navigate to <https://make.powerapps.com>. You may need to reauthenticate - click **Sign in** and follow instructions if needed.
 
-2.  Select your **Practice[DeploymentId]** environment at the top right if it is not already selected.
+2.  Select your **Practice<inject key="DeploymentID" enableCopy="false"/>** environment at the top right if it is not already selected.
 
 3.  If necessary, click the **Home** icon on the left side of the screen. Select **Create** and then select **Dataverse**.
 
