@@ -22,8 +22,8 @@ We will follow the below outline to design the canvas app:
 
 ## Prerequisites
 
-- Completion of **Module 0 Lab 0 - Validate lab environment**
-- Completion of **Module 2 Lab 1 - Data Modeling**
+- Completion of **Lab 0 - Validate lab environment**
+- Completion of **Lab 1 - Data Modeling**
 
 ## Exercise 1: Create Visits Canvas app
 
