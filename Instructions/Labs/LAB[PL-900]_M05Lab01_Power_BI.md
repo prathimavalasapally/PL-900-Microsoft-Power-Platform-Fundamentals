@@ -41,9 +41,12 @@ We will follow the below steps to design and create a Power BI dashboard:
 1.  You should have a **visits.pbix** file stored on your virtual machine in **C:\AllFiles\PL-900-Microsoft-Power-Platform-Fundamentals-master\Allfiles**. If it's not already there, download file using this link [visits.pbix](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/raw/master/Allfiles/visits.pbix) .
 
 1.  Open a new tab and navigate to <https://app.powerbi.com/> and sign in if needed.
-       1.  If prompted with "Lets get you started", click on **Continue**.
-       2.  For **Phone number**, enter `0123456789` and select **Get Started**.
-       3.  If prompted again, select **Get Started**
+   
+1.  If prompted with "Lets get you started", click on **Continue**.
+
+1.  For **Phone number**, enter `0123456789` and select **Get Started**.
+
+1.  If prompted again, select **Get Started**
 
 1.  Select **My workspace** from the left side navigation.
 
@@ -53,11 +56,11 @@ We will follow the below steps to design and create a Power BI dashboard:
 
 1.  Once the data load is complete, select the **visits** report.
 
-    Note that the Type is set to **Report**, do not select the Dataset.
+    >**Note**: **Report** is to be selected, do not select the **Dataset**.
 
 1.  Select **Edit**. 
 
-    If the **Edit** menu item is not visible, select the ellipsis **...** and then select **Edit**.
+    >**Note**: If the **Edit** menu item is not visible, select the ellipsis **...** and then select **Edit**.
 
 You have now setup Power BI service to use for your labs.
 
@@ -103,8 +106,7 @@ You have now setup Power BI service to use for your labs.
 
 3.  Select **New dashboard** on **Pin to dashboard** prompt.
 
-4.  Enter **Campus Management** as a **Dashboard name**, press
-    **Pin live**.
+4.  Enter **Campus Management** as a **Dashboard name**, press **Pin live**.
 
 5.  A pop-up will prompt you that the dashboard has been created. Select **Go to dashboard**.
 
