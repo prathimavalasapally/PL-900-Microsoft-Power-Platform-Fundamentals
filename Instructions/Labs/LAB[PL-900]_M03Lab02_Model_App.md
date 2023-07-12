@@ -30,8 +30,8 @@ Both will be integrated to the model-driven app for a better user-experience.
 
 Prerequisites
 
-- Completion of **Module 0 Lab 0 - Validate lab environment**
-- Completion of **Module 2 Lab 1 - Data Modeling**
+- Completion of **Lab 0 - Validate lab environment**
+- Completion of **Lab 1 - Data Modeling**
 
 Things to consider before you begin
 
