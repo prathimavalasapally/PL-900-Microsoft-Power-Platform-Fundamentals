@@ -22,8 +22,8 @@ We will follow the below outline to design the canvas app:
 
 ## Prerequisites
 
-- Completion of **Module 0 Lab 0 - Validate lab environment**
-- Completion of **Module 2 Lab 1 - Data Modeling**
+- Completion of **Lab 0 - Validate lab environment**
+- Completion of **Lab 1 - Data Modeling**
 
 ## Exercise 1: Create Visits Canvas app
 
@@ -90,19 +90,17 @@ In this task, you will customize the header text on each of the three screens fo
 
 1. Using the Tree view in the left-hand navigation, select the **BrowseScreen1**.
 
-1. On the command toolbar, select the **Theme** button and from the list that appears select the **Red** theme color.
+1. On the command toolbar, click on the **ellipsis (...)** icon, select the **Theme** button and from the list that appears select the **Red** theme color.
 
 ### Task \#3: Test your Visits app
 
 In this task, you will test out your new app.
 
-1.  With your application open in the App Designer, select **Settings**, in the **General** section update the name of your app to **Visits App**, click the **X** to close the settings screen and then select **Save**.
+1.  With your application open in the App Designer, click on the **ellipsis (...)** icon, select **Settings**, in the **General** section update the name of your app to **Visits App**, click the **X** to close the settings screen and then select **Save**.
 
-2.  Select the **back** arrow to return to your app.
+2.  Using the navigation on the left, select **BrowseScreen1** if not selected.
 
-3.  Using the navigation on the left, select **BrowseScreen1**.
-
-4.  In the app designer, select the **preview the app** button (Play icon) on the command bar. *(You can also preview the app by pressing F5 on your keyboard.)*
+3.  In the app designer, select the **Preview the app** button (Play icon) on the command bar. *(You can also preview the app by pressing F5 on your keyboard.)*
 
 4.  Once the app opens, in the **Search Items** field, enter the text **Maria**
     *(Notice how the items in the gallery filter based on what is typed in the
@@ -119,7 +117,7 @@ In this task, you will test out your new app.
 
 8.  On the top right of the screen, click the **X** Icon to return to the canvas app editor.
 
-Congratulations! You have created and configured your first canvas app.
+Congratulations, You have created and configured your first canvas app.
 
 ## Challenges
 

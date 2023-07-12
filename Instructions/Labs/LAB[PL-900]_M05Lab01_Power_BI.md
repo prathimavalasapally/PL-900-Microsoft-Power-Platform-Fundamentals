@@ -22,8 +22,8 @@ We will follow the below steps to design and create a Power BI dashboard:
 
 ## Prerequisites
 
-- Completion of **Module 0 Lab 0 - Validate lab environment**
-- Completion of **Module 2 Lab 1 - Data Modeling**
+- Completion of **Lab 0 - Validate lab environment**
+- Completion of **Lab 1 - Data Modeling**
 
 ## Things to consider before you begin
 
@@ -41,9 +41,12 @@ We will follow the below steps to design and create a Power BI dashboard:
 1.  You should have a **visits.pbix** file stored on your virtual machine in **C:\AllFiles\PL-900-Microsoft-Power-Platform-Fundamentals-master\Allfiles**. If it's not already there, download file using this link [visits.pbix](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/raw/master/Allfiles/visits.pbix) .
 
 1.  Open a new tab and navigate to <https://app.powerbi.com/> and sign in if needed.
-       1.  If prompted with "Lets get you started", click on **Continue**.
-       2.  For **Phone number**, enter `0123456789` and select **Get Started**.
-       3.  If prompted again, select **Get Started**
+   
+1.  If prompted with "Lets get you started", click on **Continue**.
+
+1.  For **Phone number**, enter `0123456789` and select **Get Started**.
+
+1.  If prompted again, select **Get Started**
 
 1.  Select **My workspace** from the left side navigation.
 
@@ -53,11 +56,11 @@ We will follow the below steps to design and create a Power BI dashboard:
 
 1.  Once the data load is complete, select the **visits** report.
 
-    Note that the Type is set to **Report**, do not select the Dataset.
+    >**Note**: **Report** is to be selected, do not select the **Dataset**.
 
 1.  Select **Edit**. 
 
-    If the **Edit** menu item is not visible, select the ellipsis **...** and then select **Edit**.
+    >**Note**: If the **Edit** menu item is not visible, select the ellipsis **...** and then select **Edit**.
 
 You have now setup Power BI service to use for your labs.
 
@@ -103,8 +106,7 @@ You have now setup Power BI service to use for your labs.
 
 3.  Select **New dashboard** on **Pin to dashboard** prompt.
 
-4.  Enter **Campus Management** as a **Dashboard name**, press
-    **Pin live**.
+4.  Enter **Campus Management** as a **Dashboard name**, press **Pin live**.
 
 5.  A pop-up will prompt you that the dashboard has been created. Select **Go to dashboard**.
 
@@ -127,3 +129,11 @@ Your **Campus Management** dashboard should be displayed with three visuals on i
 Your dashboard should look similar to the following:
 
 ![](media/5-powerbi-result.png)
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help.
+
+**You have successfully completed the lab!**

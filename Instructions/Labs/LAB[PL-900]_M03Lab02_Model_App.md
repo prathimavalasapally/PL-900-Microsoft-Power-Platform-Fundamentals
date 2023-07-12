@@ -10,7 +10,7 @@ Throughout this course, you will build applications and perform automation to en
 
 In this lab, you will build a Power Apps model-driven app to allow the backoffice campus staff to manage visit records across the entire campus.
 
-High-level lab steps
+## High-level lab steps
 
 As part of creating the model-driven app, you will complete the following:
 
@@ -28,12 +28,12 @@ We will work with the following components:
 
 Both will be integrated to the model-driven app for a better user-experience.
 
-Prerequisites
+## Prerequisites
 
-- Completion of **Module 0 Lab 0 - Validate lab environment**
-- Completion of **Module 2 Lab 1 - Data Modeling**
+- Completion of **Lab 0 - Validate lab environment**
+- Completion of **Lab 1 - Data Modeling**
 
-Things to consider before you begin
+## Things to consider before you begin
 
 - What changes should we make to improve the user experience?
 - What should we include in a model-driven app based on the data model we have built?
@@ -49,13 +49,13 @@ Things to consider before you begin
 
 2. Select your **Practice<inject key="DeploymentID" enableCopy="false"/>** environment at the top right if it is not already selected.
 
-3. Using the navigation on the left, expand **Dataverse**, select **Tables**, and click to open your **Visit** table.
+3. Using the navigation on the left, select **Tables**, and click to open your **Visit** table.
 
-   If you do not see the Visit table, make sure you are in the correct environment (Step 2).
+   >Note: If you do not see the Visit table, make sure you are in the correct environment (Step 2).
 
 4. Under the **Data experiences** section, select **Forms** and click to open the Information form with **Main** form type.
 
-**IMPORTANT:** Since by default all forms are named Information, make sure to verify that the form you select has a Form Type of **Main** and not something else. By default, the form has two fields: Name and Owner.
+   **IMPORTANT:** Since by default all forms are named Information, make sure to verify that the form you select has a Form Type of **Main** and not something else. By default, the form has two fields: Name and Owner.
 
 5. On the right side of the screen on the Properties panel, select the **Display Name** field, and change it to **Main Information**.
 
@@ -115,9 +115,9 @@ In this task, we will modify the default Active Visits view and create a new vie
 
 Now, we will clone the view to create a new view for today’s visits.
 
-IMPORTANT: Make sure that you do not close the Active Visits view, as we will be leveraging it to create the new today’s visits view.
+**IMPORTANT**: Make sure that you do not close the Active Visits view, as we will be leveraging it to create the new today’s visits view.
 
-1. Click on the **dropdown arrow** by the Save button (be careful not to press the button itself) and select **Save As**.
+1. Click on the **Save As** button.
 
 2. Change the name to **Today’s Visits** and press **Save**.
 
@@ -133,7 +133,7 @@ IMPORTANT: Make sure that you do not close the Active Visits view, as we will be
 
 8. Add **Actual Start** and **Actual End** fields to the view.
 
-**Note:** Since we no longer filter on the view status, we will get all today’s visits including completed ones. These fields will help to differentiate completed visits and visits in progress.
+   >**Note:** Since we no longer filter on the view status, we will get all today’s visits including completed ones. These fields will help to differentiate completed visits and visits in progress.
 
 9. Click **Save and Publish** and wait for the publishing to complete.
 
@@ -154,9 +154,7 @@ For simplicity and time’s sake, we will not be addressing some of the Visit co
 
 3. Create the Model-Driven Application:
 
-	1. Select **Blank app** in the **Start from** section of the Home screen.
-
-	1. Under **Blank app based on Dataverse**, select **Create**.
+	1. In the **Search bar**, search for **Model-driven** and select **Model-driven app from blank**.
 
 	1. Enter **Bellows Campus Management** for Name and select **Create**.
 
@@ -229,7 +227,13 @@ Your running app should look approximately like the following:
 
 ![](media/3-model-driven-app.png)
 
-Congratulations! You have created and configured your first model-driven app.
+You have created and configured your first model-driven app.
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help.
 
 ## Challenges
 

@@ -21,9 +21,9 @@ complete the project:
 
 ## Prerequisites
 
-- Completion of **Module 0 Lab 0 - Validate lab environment**
-- Completion of **Module 2 Lab 1 - Data Modeling**
-- Completion of **Module 2 Lab 3 - How to build a model-driven app**
+- Completion of **Lab 0 - Validate lab environment**
+- Completion of **Lab 1 - Data Modeling**
+- Completion of **Lab 3 - How to build a model-driven app**
 - John Doe contact created with a personal email address populated.
 
 ## Exercise 1: Create Visit Notification flow
@@ -89,23 +89,23 @@ the unique code assigned to the visit when a visit is created.
 4.  Select **Add dynamic content** under the **To** field. 
     
 5.  Select **Email** from the Dynamic content list. 
-       >    Notice that it is beneath the **Get the visitor** header. This means you are selecting the Email that is related to the Visitor that you looked up in the previous step.
+       >Note: Notice that it is beneath the **Get the visitor** header. This means you are selecting the Email that is related to the Visitor that you looked up in the previous step.
 
 6.  Enter **Your scheduled visit to Bellows College** in the **Subject** field.
 
 7.  Enter the following text in **Email Body**:
-    >   Dynamic content needs to be placed where fields are named in brackets. It is recommended to copy & paste all text first and then add dynamic content in the correct places.
+    >Note:  Dynamic content needs to be placed where fields are named in brackets. It is recommended to copy & paste all text first and then add dynamic content in the correct places.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-   Dear {First Name},
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       Dear {First Name},
 
-   You are currently scheduled to visit Bellows Campus from {Scheduled Start} until {Scheduled End}.
+       You are currently scheduled to visit Bellows Campus from {Scheduled Start} until {Scheduled End}.
 
-   Best regards,
+       Best regards,
 
-   Campus Administration
-   Bellows College
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       Campus Administration
+       Bellows College
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 8.  Highlight the **{First Name}** text. Replace it with the **First Name** field from the **Dynamic content** list.
 
@@ -153,6 +153,12 @@ Leave this flow tab open for the next task. You flow should look approximately l
 9. Navigate to the browser tab with your flow test running. After a short delay, you should see the flow running. This is where you can catch any issues in the flow or confirm that it ran successfully.
 
 After a short delay, you should see an email in your inbox, since you populated John Doe's email as your personal email. Note that it may go to your Junk Email folder.
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help.
 
 ## Challenges
 
