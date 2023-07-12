@@ -56,17 +56,17 @@ We would like to assign each visit a unique number that can be easily entered an
 
 1. Select your **Practice<inject key="DeploymentID" enableCopy="false"/>** environment at the top right if it is not already selected.
 
-1. Using the navigation on the left, expand **Dataverse**, and select **Tables**.
+1. Using the navigation on the left select **Tables**.
 
 1. Click **+ New table**.
 
-1. Enter **Visit** for **Display Name**.
+1. Enter **Visit** for **Display Name**. Leave other fields blank.
 
 1. Click **Save**.
 
 1. Under the **Schema** section, select **Columns**.
 
-1. Create  Scheduled Start column
+1. Create Scheduled Start column
 
 	- Select **+ New column**.
 
@@ -162,29 +162,27 @@ We would like to assign each visit a unique number that can be easily entered an
 
 **Objective:** In this exercise you will import sample data into the Dataverse database.
 
-### Task \#1.1: Load Excel file to OneDrive
+### Task \#1: Load Excel file to OneDrive
 
 1. You should have the **Visits.xlsx** file stored on your virtual machine in **C:\AllFiles\PL-900-Microsoft-Power-Platform-Fundamentals-master\Allfiles**. Download [Visits.xlsx](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/raw/master/Allfiles/Visits.xlsx) if you do not.
 
-2. If not already signed in, sign in to [https://make.powerapps.com](https://make.powerapps.com/).
+2. Select your **Practice<inject key="DeploymentID" enableCopy="false"/>** environment at the top right if it is not already selected.
 
-3. Select your **Practice<inject key="DeploymentID" enableCopy="false"/>** environment at the top right if it is not already selected.
+3. Click on the Waffle button in the upper left corner to change applications and select **OneDrive**. (It may take a moment for your OneDrive to be set up. Click **Your OneDrive is ready** when you see it on the screen.)
 
-4. Click on the Waffle button in the upper left corner to change applications and select **OneDrive**. (It may take a moment for your OneDrive to be set up. Click **Your OneDrive is ready** when you see it on the screen.)
+4. Click **Upload** from the top menu and select **Files**.
 
-5. Click **Upload** from the top menu and select **Files**.
+5. Locate and select the **Visits.xlsx** file and click **Open**.
 
-6. Locate and select the **Visits.xlsx** file and click **Open**.
-
- **Note:** This file is located in the **All Files** folder on your machine.
+ **Note:** This file is located in the **C:\AllFiles\PL-900-Microsoft-Power-Platform-Fundamentals-master\Allfiles** folder on your machine.
  
-### Task \#1.2: Create a dataflow
+### Task \#2: Create a dataflow
 
 1. If not already signed in, sign in to [https://make.powerapps.com](https://make.powerapps.com/).
 
 2. Select your **Practice<inject key="DeploymentID" enableCopy="false"/>** environment at the top right if it is not already selected.
 
-3. Using the navigation on the left, expand **Dataverse**, and select **Tables**.
+3. Using the navigation on the left, select **Tables**.
 
 4. Locate and open the **Visit** table you created in the previous exercise.
 
