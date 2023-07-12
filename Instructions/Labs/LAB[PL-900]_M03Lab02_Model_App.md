@@ -47,7 +47,7 @@ Things to consider before you begin
 
 1. Sign in to [https://make.powerapps.com](https://make.powerapps.com/) if you are not already signed in.
 
-2. Select your **Practice[DeploymentId]** environment at the top right if it is not already selected.
+2. Select your **Practice<inject key="DeploymentID" enableCopy="false"/>** environment at the top right if it is not already selected.
 
 3. Using the navigation on the left, expand **Dataverse**, select **Tables**, and click to open your **Visit** table.
 
@@ -148,7 +148,7 @@ For simplicity and time’s sake, we will not be addressing some of the Visit co
 
 1. Sign into [https://make.powerapps.com](https://make.powerapps.com/) (if you are not already signed in).
 
-2. Select your **Practice[DeploymentId]** environment at the top right if it is not already selected.
+2. Select your **Practice<inject key="DeploymentID" enableCopy="false"/>** environment at the top right if it is not already selected.
 
 3.  If necessary, click the **Home** icon on the left side of the screen.
 

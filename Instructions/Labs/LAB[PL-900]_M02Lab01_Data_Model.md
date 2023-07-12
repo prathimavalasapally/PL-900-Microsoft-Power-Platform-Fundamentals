@@ -52,7 +52,7 @@ We would like to assign each visit a unique number that can be easily entered an
 
 1. Sign into [https://make.powerapps.com](https://make.powerapps.com/) (if you are not already signed in)
 
-1. Select your **Practice[DeploymentId]** environment at the top right if it is not already selected.
+1. Select your **Practice<inject key="DeploymentID" enableCopy="false"/>** environment at the top right if it is not already selected.
 
 1. Using the navigation on the left, expand **Dataverse**, and select **Tables**.
 
@@ -166,7 +166,7 @@ We would like to assign each visit a unique number that can be easily entered an
 
 2. If not already signed in, sign in to [https://make.powerapps.com](https://make.powerapps.com/).
 
-3. Select your **Practice[DeploymentId]** environment at the top right if it is not already selected.
+3. Select your **Practice<inject key="DeploymentID" enableCopy="false"/>** environment at the top right if it is not already selected.
 
 4. Click on the Waffle button in the upper left corner to change applications and select **OneDrive**. (It may take a moment for your OneDrive to be set up. Click **Your OneDrive is ready** when you see it on the screen.)
 
@@ -180,7 +180,7 @@ We would like to assign each visit a unique number that can be easily entered an
 
 1. If not already signed in, sign in to [https://make.powerapps.com](https://make.powerapps.com/).
 
-2. Select your **Practice[DeploymentId]** environment at the top right if it is not already selected.
+2. Select your **Practice<inject key="DeploymentID" enableCopy="false"/>** environment at the top right if it is not already selected.
 
 3. Using the navigation on the left, expand **Dataverse**, and select **Tables**.
 
