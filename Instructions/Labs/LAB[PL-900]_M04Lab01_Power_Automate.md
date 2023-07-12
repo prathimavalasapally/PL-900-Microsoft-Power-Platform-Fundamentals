@@ -89,23 +89,23 @@ the unique code assigned to the visit when a visit is created.
 4.  Select **Add dynamic content** under the **To** field. 
     
 5.  Select **Email** from the Dynamic content list. 
-       >    Notice that it is beneath the **Get the visitor** header. This means you are selecting the Email that is related to the Visitor that you looked up in the previous step.
+       >Note: Notice that it is beneath the **Get the visitor** header. This means you are selecting the Email that is related to the Visitor that you looked up in the previous step.
 
 6.  Enter **Your scheduled visit to Bellows College** in the **Subject** field.
 
 7.  Enter the following text in **Email Body**:
-    >   Dynamic content needs to be placed where fields are named in brackets. It is recommended to copy & paste all text first and then add dynamic content in the correct places.
+    >Note:  Dynamic content needs to be placed where fields are named in brackets. It is recommended to copy & paste all text first and then add dynamic content in the correct places.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-   Dear {First Name},
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       Dear {First Name},
 
-   You are currently scheduled to visit Bellows Campus from {Scheduled Start} until {Scheduled End}.
+       You are currently scheduled to visit Bellows Campus from {Scheduled Start} until {Scheduled End}.
 
-   Best regards,
+       Best regards,
 
-   Campus Administration
-   Bellows College
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       Campus Administration
+       Bellows College
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 8.  Highlight the **{First Name}** text. Replace it with the **First Name** field from the **Dynamic content** list.
 
