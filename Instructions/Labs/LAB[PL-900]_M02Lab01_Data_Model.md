@@ -24,15 +24,16 @@ Finally, you will import sample data into Microsoft Dataverse.
 
 To prepare your learning environments you will:
 
-- Refer to the [data model document](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/blob/master/Allfiles/Campus%20Management.png) for the metadata description (tables and relationships). You can hold CTRL+click or right click the link to open the data model document in a new window.
-- create Visit table
-- import Visit data using an Excel spreadsheet
+- Refer to the following image for the metadata description (tables and relationships).
+  ![data model document](../Allfiles/Labs/CampusManagement.png)
+- Create Visit table
+- Import Visit data using an Excel spreadsheet
 
 ## Prerequisites
 
-- Completion of **Module 0 Lab 0 - Validate lab environment**
+- Completion of **Lab 0 - Validate lab environment**
 
-## Things to consider before you begin
+## Things to consider before you begin:
 
 - Naming conventions - type names carefully.
 
