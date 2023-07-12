@@ -21,13 +21,11 @@ In this Module 0 lab, you will acquire a Power Platform trial and access the Pow
 
 ### Task \#1 - Acquire your Microsoft Power Platform trial tenant
 
-1. Copy your **Microsoft 365 credentials** from the Authorized Lab Hoster.
-
 1. Navigate to <https://powerapps.microsoft.com> and click **Start free**.
 
-1. Under **Let's get you started**, enter the email address <inject key="AzureAdUserEmail"></inject> in the text box and click **Next**.
+1. Under **Let's get started**, enter the email address <inject key="AzureAdUserEmail"></inject> in the text box and click **Next**.
 
-1. If you see a prompt that you have an existing account with Microsoft. Select **Sign in**.
+1. If you see a prompt that says you have an existing account with Microsoft, select **Sign in**.
 
 1. Enter the password provided below and sign in.
    * Password: <inject key="AzureAdUserPassword"></inject>
@@ -48,7 +46,7 @@ In this Module 0 lab, you will acquire a Power Platform trial and access the Pow
 
 ### Task \#2 – Create environment
 
-1. Navigate to <https://admin.powerplatform.microsoft.com> and log in with your Microsoft 365 credentials if prompted.
+1. Navigate to <https://admin.powerplatform.microsoft.com> and log in with the credentials provided before if prompted.
 
 1. If you see a Welcome popup, click **Get Started**.
 
