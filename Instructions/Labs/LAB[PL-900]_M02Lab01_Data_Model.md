@@ -25,7 +25,8 @@ Finally, you will import sample data into Microsoft Dataverse.
 To prepare your learning environments you will:
 
 - Refer to the following image for the metadata description (tables and relationships).
-  ![data model document](../Allfiles/Labs/CampusManagement.png)
+
+  ![data model document](../../Allfiles/CampusManagement.png)
 - Create Visit table
 - Import Visit data using an Excel spreadsheet
 
@@ -250,4 +251,10 @@ We would like to assign each visit a unique number that can be easily entered an
 
 2. Verify that you see the imported data under the **Visit columns and data** section.
 
-Congratulations, you have successfully created a new table and imported data.
+You have successfully created a new table and imported data.
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help.
