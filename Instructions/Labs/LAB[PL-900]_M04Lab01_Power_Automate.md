@@ -32,7 +32,7 @@ complete the project:
 implements the requirement. The visitor should be sent an email that includes
 the unique code assigned to the visit when a visit is created.
 
-### Task \#1: Create a flow
+### Task 1: Create a flow
 
 1.  Navigate to <https://make.powerapps.com>. You may need to reauthenticate - click **Sign in** and follow instructions if needed.
 
@@ -61,7 +61,7 @@ the unique code assigned to the visit when a visit is created.
 
     4.  On the trigger step, click the ellipsis (**...**) and click **Rename**. Rename this trigger **"When a visit is added"**. This is a good practice, so you and other flow editors can understand the purpose of the step without having to dive into the details.
 
-### Task \#2: Create a step to get the visitor row
+### Task 2: Create a step to get the visitor row
 
 1.  Select **+ New step**. This step is required to retrieve visitors information, including email address.
 
@@ -71,13 +71,13 @@ the unique code assigned to the visit when a visit is created.
 
 4.  Select **Contacts** as **Table name**
 
-5.  Select the **Row ID** field. Notice that a window pops up to select Dynamic content or Expressions.
+5.  Select the **Row ID** field and then click on **See more** under **Insert parameters from previous steps**.
 
-6.  In the **Row ID** field, select **Visitor (Value)** from the Dynamic content list. In this step, you are looking up the Contact for the Visit row that was created to trigger this flow. Since email address is part of the Contact table, you will need this information to send the email to the visitor.
+6.  From the Dynamic content list that shows up, search and select for the **Visitor (Value)**. In this step, you are looking up the Contact for the Visit row that was created to trigger this flow. Since email address is part of the Contact table, you will need this information to send the email to the visitor.
 
-7.  On this action, click the ellipsis (**...**) and click **Rename**. Rename this action **"Get the Visitor"**. This is a good practice, so you and other flow editors can understand the purpose of the step without having to dive into the details.
+7. On this action, click the ellipsis (**...**) and click **Rename**. Rename this action **"Get the Visitor"**. This is a good practice, so you and other flow editors can understand the purpose of the step without having to dive into the details.
 
-### Task \#3: Create a step to send an email to the visitor
+### Task 3: Create a step to send an email to the visitor
 
 1.  Click **+ New step**. This is the step that will send an email to the
     visitor.
@@ -89,12 +89,12 @@ the unique code assigned to the visit when a visit is created.
 4.  Select **Add dynamic content** under the **To** field. 
     
 5.  Select **Email** from the Dynamic content list. 
-       >Note: Notice that it is beneath the **Get the visitor** header. This means you are selecting the Email that is related to the Visitor that you looked up in the previous step.
+    >**Note**: Notice that it is beneath the **Get the visitor** header. This means you are selecting the Email that is related to the Visitor that you looked up in the previous step.
 
 6.  Enter **Your scheduled visit to Bellows College** in the **Subject** field.
 
 7.  Enter the following text in **Email Body**:
-    >Note:  Dynamic content needs to be placed where fields are named in brackets. It is recommended to copy & paste all text first and then add dynamic content in the correct places.
+    >**Note**:  Dynamic content needs to be placed where fields are named in brackets. It is recommended to copy & paste all text first and then add dynamic content in the correct places.
 
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
        Dear {First Name},
@@ -119,7 +119,7 @@ Leave this flow tab open for the next task. You flow should look approximately l
 
 ![Example of flow steps.](media/4-Flow.png)
 
-### Task \#4: Validate and test the flow
+### Task 4: Validate and test the flow
 
 1.  Open a new tab in your browser and navigate to <https://make.powerapps.com>.
 
