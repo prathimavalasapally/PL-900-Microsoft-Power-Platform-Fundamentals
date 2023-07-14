@@ -62,7 +62,7 @@ We will follow the below steps to design and create a Power BI dashboard:
 
     >**Note**: If the **Edit** menu item is not visible, select the ellipsis **...** and then select **Edit**.
 
-You have now setup Power BI service to use for your labs.
+      You have now setup Power BI service to use for your labs.
 
 
 ### Task 2: Create Chart and Time Visualizations
@@ -124,11 +124,11 @@ You have now setup Power BI service to use for your labs.
 
 5.  Click **Exit Q&A**.
 
-Your **Campus Management** dashboard should be displayed with three visuals on it. You may have to scroll down to see the new Q&A visual.
+      Your **Campus Management** dashboard should be displayed with three visuals on it. You may have to scroll down to see the new Q&A visual.
 
-Your dashboard should look similar to the following:
+      Your dashboard should look similar to the following:
 
-![](media/5-powerbi-result.png)
+      ![](media/5-powerbi-result.png)
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
