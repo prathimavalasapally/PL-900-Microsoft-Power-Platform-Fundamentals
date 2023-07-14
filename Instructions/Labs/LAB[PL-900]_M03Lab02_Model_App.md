@@ -73,7 +73,7 @@ Both will be integrated to the model-driven app for a better user-experience.
 
 7. Drag the **Code** column and drop it in the form header.
 
-The header is the top right area of the form. You may need to collapse the Properties panel on the right side of the screen to see the field on the form.
+	The header is the top right area of the form. You may need to collapse the Properties panel on the right side of the screen to see the field on the form.
 
 8. With the **Code** field still selected, check the checkbox for **Read-only** in the Properties panel on the right side of the screen.
 
@@ -142,7 +142,6 @@ Now, we will clone the view to create a new view for today’s visits.
 **Objective:** In this exercise, you will create a model-driven app, customize the sitemap, and test the app.
 
 For simplicity and time’s sake, we will not be addressing some of the Visit columns in this lab.
-
 
 ### Task 1: Create app
 
@@ -223,9 +222,9 @@ For simplicity and time’s sake, we will not be addressing some of the Visit co
 
 4. You may add more test records.
 
-Your running app should look approximately like the following:
+   Your running app should look approximately like the following:
 
-![](media/3-model-driven-app.png)
+   ![](media/3-model-driven-app.png)
 
 You have created and configured your first model-driven app.
 
