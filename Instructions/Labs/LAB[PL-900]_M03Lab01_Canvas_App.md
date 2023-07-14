@@ -29,7 +29,7 @@ We will follow the below outline to design the canvas app:
 
 **Objective:** In this exercise, you will create a canvas app by connecting your Visits table you created earlier.
 
-### Task \#1: Create the Visits app
+### Task 1: Create the Visits app
 
 1.  Navigate to <https://make.powerapps.com>. You may need to reauthenticate - click **Sign in** and follow instructions if needed.
 
@@ -50,9 +50,9 @@ We will follow the below outline to design the canvas app:
 
 7.  After your app is created, On the Welcome to Power Apps Studio screen, check the **Don’t show me this again** box, and then select **Skip**.
 
-8.  After creation has completed, is should look like the image below.
+8.  After creation has completed, it should look like the image below.
 
-![Canvas app created from Visit data.](media/2-canvas-app-from-data.png)
+    ![Canvas app created from Visit data.](media/PL-900_lab02_e1_t1.png)
 
 9. In the app designer, select the **preview the app** button (Play icon) on the command bar. *(You can also preview the app by pressing F5 on your keyboard.)* Take a look around and see how your app looks out-of-the-box.
 
@@ -60,7 +60,7 @@ We will follow the below outline to design the canvas app:
 
 Congratulations, you have successfully created a Power App from a Dataverse table. The next step in the process is to tailor the app to match your college's branding. The next series of steps will walk you through providing some extra customization to the app.
 
-### Task \#2: Modify and theme the newly created app
+### Task 2: Modify and theme the newly created app
 
 In this task, you will customize the header text on each of the three screens for your app (Browse, Detail, and Edit) and change the app theme.
 
@@ -84,15 +84,15 @@ In this task, you will customize the header text on each of the three screens fo
 
 1.  Select the **Visits** label on the screen.
 
-1.  On the right side of the screen, under the properties tab, replace the text Table1 in the **Text** control property with **“Edit Details”**.
+1.  On the right side of the screen, under the properties tab, replace the text in the **Text** control property with **“Edit Details”**.
 
 1.  Click in the blank background of the screen to see the updated text on your Edit screen.
 
 1. Using the Tree view in the left-hand navigation, select the **BrowseScreen1**.
 
-1. On the command toolbar, click on the **ellipsis (...)** icon, select the **Theme** button and from the list that appears select the **Red** theme color.
+1. On the command toolbar, click on the **ellipsis (...)** icon, select the **Theme** button and from the list that appears, select the **Red** theme color.
 
-### Task \#3: Test your Visits app
+### Task 3: Test your Visits app
 
 In this task, you will test out your new app.
 
