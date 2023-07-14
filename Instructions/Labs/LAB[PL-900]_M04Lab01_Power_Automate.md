@@ -111,13 +111,13 @@ the unique code assigned to the visit when a visit is created.
 
 9.  Highlight the **{Scheduled Start}** text. Replace it with the **Scheduled Start** field **Dynamic content** list.
 
-10.  Highlight the **{Scheduled End}** text. Replace it with the **Scheduled End** field from the **Dynamic content** list.
+10. Highlight the **{Scheduled End}** text. Replace it with the **Scheduled End** field from the **Dynamic content** list.
 
-11.  Click **Save**.
+11. Click **Save**.
 
-Leave this flow tab open for the next task. You flow should look approximately like the following:
+    Leave this flow tab open for the next task. You flow should look approximately like the following:
 
-![Example of flow steps.](media/4-Flow.png)
+    ![Example of flow steps.](media/4-Flow.png)
 
 ### Task 4: Validate and test the flow
 
