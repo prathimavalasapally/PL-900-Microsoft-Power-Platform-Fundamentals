@@ -44,7 +44,7 @@ To prepare your learning environments you will:
 **Objective:** In this exercise, you will create new custom table for Visits.
 
 
-### Task \#1: Create Visit Table and Columns
+### Task 1: Create Visit Table and Columns
 
 The **Visit** table will contain information about the campus visits including the visitor, scheduled times and actual times of each visit.
 
@@ -60,7 +60,7 @@ We would like to assign each visit a unique number that can be easily entered an
 
 1. Click **+ New table**.
 
-1. Enter **Visit** for **Display Name**. Leave other fields blank.
+1. Enter **Visit** for **Display Name**. Leave other fields at default.
 
 1. Click **Save**.
 
@@ -162,7 +162,7 @@ We would like to assign each visit a unique number that can be easily entered an
 
 **Objective:** In this exercise you will import sample data into the Dataverse database.
 
-### Task \#1: Load Excel file to OneDrive
+### Task 1: Load Excel file to OneDrive
 
 1. You should have the **Visits.xlsx** file stored on your virtual machine in **C:\AllFiles\PL-900-Microsoft-Power-Platform-Fundamentals-master\Allfiles**. Download [Visits.xlsx](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/raw/master/Allfiles/Visits.xlsx) if you do not.
 
@@ -176,7 +176,7 @@ We would like to assign each visit a unique number that can be easily entered an
 
  **Note:** This file is located in the **C:\AllFiles\PL-900-Microsoft-Power-Platform-Fundamentals-master\Allfiles** folder on your machine.
  
-### Task \#2: Create a dataflow
+### Task 2: Create a dataflow
 
 1. If not already signed in, sign in to [https://make.powerapps.com](https://make.powerapps.com/).
 
@@ -198,13 +198,13 @@ We would like to assign each visit a unique number that can be easily entered an
 
 10. Under **Choose Data** check the box next to the **Visits** Excel workbook.
 
-11. Click **Next**. Do not navigate away from this page.
+11. Click **Next**. Do not navigate away from this page until all the contents have been loaded.
 
 12. Click **Next**.
 
 13. On the **Map tables** section, select **Load to existing table** under the **Load settings**.
 
-14. On the **Destination table** drop-down menu, Select the table name starts with **crXXX_visit** (where XXX is a random set of letters and numbers)
+14. On the **Destination table** drop-down menu, Select the table name starts with **crXXX_Visit** (where XXX is a random set of letters and numbers)
 
 15. On the **Column Mapping**. Map the Columns to their corresponding destination columns.
 
@@ -243,7 +243,7 @@ We would like to assign each visit a unique number that can be easily entered an
 	![](media/Mod2-t2-s19b.png)
 	
 
-### Task \#3: Verify Data Import
+### Task 3: Verify Data Import
 
 1. After your data has been imported, use the navigation at the left of the screen to select the **Visit** table again.
 
