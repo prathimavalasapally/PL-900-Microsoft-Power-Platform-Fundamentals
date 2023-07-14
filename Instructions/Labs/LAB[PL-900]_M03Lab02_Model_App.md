@@ -43,7 +43,7 @@ Both will be integrated to the model-driven app for a better user-experience.
 
 **Objective:** In this exercise, you will customize views and forms of the custom created tables that will be used in the model-driven app.
 
-### Task \#1: Edit Visit Form
+### Task 1: Edit Visit Form
 
 1. Sign in to [https://make.powerapps.com](https://make.powerapps.com/) if you are not already signed in.
 
@@ -85,7 +85,7 @@ The header is the top right area of the form. You may need to collapse the Prope
 
 13. Using the breadcrumbs in the upper left (Tables>Visit>Forms). Select **Visit** to return to the **Visit** table main screen.
 
-### Task \#2: Edit Active Visits view
+### Task 2: Edit Active Visits view
 
 In this task, we will modify the default Active Visits view and create a new view for today’s visits.
 
@@ -111,7 +111,7 @@ In this task, we will modify the default Active Visits view and create a new vie
 
 7. Click **Save and publish** and wait for the publishing to complete.
 
-### Task #3: Create new view for today’s visits
+### Task 3: Create new view for today’s visits
 
 Now, we will clone the view to create a new view for today’s visits.
 
@@ -144,7 +144,7 @@ Now, we will clone the view to create a new view for today’s visits.
 For simplicity and time’s sake, we will not be addressing some of the Visit columns in this lab.
 
 
-### Task \#1: Create app
+### Task 1: Create app
 
 1. Sign into [https://make.powerapps.com](https://make.powerapps.com/) (if you are not already signed in).
 
@@ -181,7 +181,7 @@ For simplicity and time’s sake, we will not be addressing some of the Visit co
 12. Once the **Save** is complete, select the **Publish** button to publish your changes. 
 
 
-### Task #2: Test app
+### Task 2: Test app
 
 1. Start the application
 
