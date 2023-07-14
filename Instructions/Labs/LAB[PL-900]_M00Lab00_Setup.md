@@ -15,15 +15,15 @@ Campus administration would like to modernize their visitor registration system 
 
 Throughout this course, you will build applications and perform automation to enable the Bellows College administration and security personnel to manage and control access to the buildings on campus.
 
-In this Module 0 lab, you will acquire a Power Platform trial and access the Power Platform admin center. In the admin center, you will then create a **Practice** environment that you will perform the majority of your lab work in.
+In this Module-lab 0, you will acquire a Power Platform trial and access the Power Platform admin center. In the admin center, you will then create a **Practice** environment that will be used for majority of the lab executions.
 
-## Exercise 1 – Setup
+## Exercise 1: Setup
 
-### Task \#1 - Acquire your Microsoft Power Platform trial tenant
+### Task 1: Acquire your Microsoft Power Platform trial tenant
 
 1. Navigate to <https://powerapps.microsoft.com> and click **Start free**.
 
-1. Under **Let's get started**, enter the email address <inject key="AzureAdUserEmail"></inject> in the text box and click **Next**.
+1. Under **Let's get started**, enter the email address <inject key="AzureAdUserEmail"></inject> in the text box and click on **Start your free trial**.
 
 1. If you see a prompt that says you have an existing account with Microsoft, select **Sign in**.
 
@@ -44,7 +44,7 @@ In this Module 0 lab, you will acquire a Power Platform trial and access the Pow
 
 1. If you see a prompt to enter contact details, click on **X** to close the popup window.
 
-### Task \#2 – Create environment
+### Task 2: Create environment
 
 1. Navigate to <https://admin.powerplatform.microsoft.com> and log in with the credentials provided before if prompted.
 
@@ -52,9 +52,9 @@ In this Module 0 lab, you will acquire a Power Platform trial and access the Pow
 
 1. Select **Environments** and click **+ New**.
 
-    1. For **Name**, enter **Practice<inject key="DeploymentID" enableCopy="false"/>** .
+    1. For **Name**, enter **Practice<inject key="DeploymentID" enableCopy="false"/>**
 
-    1. For **Type**, select **Trial** (do not select the Trial
+    1. For **Type**, select **Trial** (Do not select the Trial
         (subscription-based) option).
 
     1. Change the toggle on **Add a Dataverse data store?** to **Yes**.
