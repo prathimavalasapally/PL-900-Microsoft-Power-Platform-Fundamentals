@@ -36,7 +36,7 @@ We will follow the below steps to design and create a Power BI dashboard:
 
 **Objective:** In this exercise, you will create a Power BI report based on data the Excel spreadsheet we leveraged in a previous exercise.
 
-### Task \#1: Prepare Power BI service
+### Task 1: Prepare Power BI service
 
 1.  You should have a **visits.pbix** file stored on your virtual machine in **C:\AllFiles\PL-900-Microsoft-Power-Platform-Fundamentals-master\Allfiles**. If it's not already there, download file using this link [visits.pbix](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/raw/master/Allfiles/visits.pbix) .
 
@@ -65,7 +65,7 @@ We will follow the below steps to design and create a Power BI dashboard:
 You have now setup Power BI service to use for your labs.
 
 
-### Task \#2: Create Chart and Time Visualizations
+### Task 2: Create Chart and Time Visualizations
 
 1.  Press the **Pie chart** icon in the **Visualizations** panel to insert a chart.
 
@@ -98,7 +98,7 @@ You have now setup Power BI service to use for your labs.
 
 ## Exercise 2: Create Power BI Dashboard
 
-### Task \#1: Create Power BI Dashboard
+### Task 1: Create Power BI Dashboard
 
 1.  You should have the report open from the previous task.
 
@@ -112,7 +112,7 @@ You have now setup Power BI service to use for your labs.
 
 6.  Test interactivity of the pie and bar charts displayed.
 
-### Task \#2: Add Visualizations Using Natural Language
+### Task 2: Add Visualizations Using Natural Language
 
 1.  Within your **Campus Management** dashboard, select **Ask a question about your data** bar at the top.
 
