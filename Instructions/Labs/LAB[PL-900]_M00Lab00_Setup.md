@@ -21,7 +21,7 @@ In this Module-lab 0, you will acquire a Power Platform trial and access the Pow
 
 ### Task 1: Acquire your Microsoft Power Platform trial tenant
 
-1. Navigate to <https://powerapps.microsoft.com> and click **Start free**.
+1. Navigate to <https://powerapps.microsoft.com> and select **Start free**.
 
 1. Under **Let's get started**, enter the email address <inject key="AzureAdUserEmail"></inject> in the text box and click on **Start your free trial**.
 
