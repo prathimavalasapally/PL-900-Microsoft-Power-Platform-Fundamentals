@@ -1,0 +1,12 @@
+[
+    {
+     "Name": "Lab Scenario Preview - PL-900: Microsoft Power Platform Fundamentals",
+     "Language": "English",
+     "Files": [
+         {
+           "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/PL-900-Microsoft-Power-Platform-Fundamentals/prod-new/Instructions/Labs/Lab-Scenario-Preview/module1.md",
+           "Order": 1
+         }
+      ]  
+    } 
+ ]
