@@ -79,11 +79,11 @@ Both will be integrated to the model-driven app for a better user-experience.
 
 9. Select **Owner** field. In the Properties panel, change the **Label** to **Host**
 
-10. Click **Save and publish** at the top right and wait for for the publishing to complete.
+10. Select the **Save and publish** at the top right and wait for for the publishing to complete.
 
-12. If the edit view opened in a new browser tab or window, close it. Otherwise, click **Back** at the top left of the screen. You should now be back to the Visit tables Forms.
+11. If the edit view opened in a new browser tab or window, close it. Otherwise, click **Back** at the top left of the screen. You should now be back to the Visit tables Forms.
 
-13. Using the breadcrumbs in the upper left (Tables>Visit>Forms). Select **Visit** to return to the **Visit** table main screen.
+12. Using the breadcrumbs in the upper left (Tables>Visit>Forms). Select **Visit** to return to the **Visit** table main screen.
 
 ### Task 2: Edit Active Visits view
 
@@ -109,7 +109,7 @@ In this task, we will modify the default Active Visits view and create a new vie
 
 6. Select **Scheduled Start** to change the sort order to **Newer to Older**.
 
-7. Click **Save and publish** and wait for the publishing to complete.
+7. Select the **Save and publish** and wait for the publishing to complete.
 
 ### Task 3: Create new view for today’s visits
 
@@ -119,23 +119,23 @@ Now, we will clone the view to create a new view for today’s visits.
 
 1. Click on the **Save As** button.
 
-2. Change the name to **Today’s Visits** and press **Save**.
+2. Change the **Name** to `Today’s Visits` and select **Save**.
 
-3. Click **Edit filters** link in the Properties panel.
+3. Select **Edit filters** link in the Properties panel.
 
-4. Click **Add**, select **Add row**.
+4. Select **Add**, select **Add row**.
 
 5. Select **Scheduled Start** as a field, then select **Today** as the condition in the drop-down.
 
-6. Click the **…** on the **Status** row and click **Delete** to delete that filter condition.
+6. Select the **…** on the **Status** row and click **Delete** to delete that filter condition.
 
-7. Press **Ok** to save the condition. The view is now filtered to show only records where the Scheduled Start date is today.
+7. Select **Ok** to save the condition. The view is now filtered to show only records where the Scheduled Start date is today.
 
 8. Add **Actual Start** and **Actual End** fields to the view.
 
    >**Note:** Since we no longer filter on the view status, we will get all today’s visits including completed ones. These fields will help to differentiate completed visits and visits in progress.
 
-9. Click **Save and Publish** and wait for the publishing to complete.
+9. Select the **Save and Publish** and wait for the publishing to complete.
 
 ## Exercise 2: Create Model-driven app
 
@@ -149,36 +149,37 @@ For simplicity and time’s sake, we will not be addressing some of the Visit co
 
 2. Select your **Practice<inject key="DeploymentID" enableCopy="false"/>** environment at the top right if it is not already selected.
 
-3.  If necessary, click the **Home** icon on the left side of the screen.
+3. Select **+ Create** on the left navigation.
 
-3. Create the Model-Driven Application:
+4.  Create the Model-Driven Application:
 
-	1. In the **Search bar**, search for **Model-driven** and select **Model-driven app from blank**.
+    1. Select **Blank app** in the **Start from** section of the **Create your app** screen.
 
-	1. Enter **Bellows Campus Management** for Name and select **Create**.
+    2. Under **Blank app based on Dataverse**, select **Create**.
 
-4. After your new model-driven application loads, select the **+ Add Page** button.
+    3. Enter `Bellows Campus Management` for **Name** and select **Create**.
 
-5. On the Add Page screen, choose **Dataverse table**, and then select the **Next** button.
+5. After your new model-driven application loads, select the **+ Add Page** button.
 
-6. Add the following tables:
+6. On the Add Page screen, choose **Dataverse table**, and then select the **Next** button.
+
+7. Add the following tables:
 
 	1. Visit
 
 	1. Contact
 
-7. After you have selected the 2 tables, select **Add**.
+8. After you have selected the 2 tables, select **Add**.
 
-8. Using the navigation icons on the left side of the screen, select **Navigation**.
+9.  Using the navigation icons on the left side of the screen, select **Navigation**.
 
-9. In the Navigation Pane, select **New Group** below where it says Navigation bar. You may need to expand the menu on the left.
+10. On the Navigation Pane, select **New Group** below where it says Navigation. You may need to expand the menu on the left.
 
-10. On the right side of the screen, in the **Display options** section, change the **Title** property to **Security**.
+11. On the right side of the screen, in the **Display options** section, change the **Title** property to `Security`
 
-11. Select **Save** and wait until the changes are saved. 
+12. Select **Save** and wait until the changes are saved.
 
-12. Once the **Save** is complete, select the **Publish** button to publish your changes. 
-
+13. Once the **Save** is complete, select the **Publish** button to publish your changes. 
 
 ### Task 2: Test app
 
