@@ -1,9 +1,3 @@
-<!--
-lab:
-    title: 'Lab 0: Validate lab environment'
-    module: 'Module 0: Course introduction'
--->
-
 # Lab 0: Validate lab environment
 
 ## Scenario
@@ -23,26 +17,16 @@ In this Module-lab 0, you will acquire a Power Platform trial and access the Pow
 
 1. Navigate to <https://powerapps.microsoft.com> and select **Start free**.
 
-1. Under **Let's get started**, enter the email address <inject key="AzureAdUserEmail"></inject> in the text box and click on **Start your free trial**.
+1. Under **Let's get started**, enter the email address <inject key="AzureAdUserEmail"></inject> in the text box and select **Start your free trial**.
 
 1. If you see a prompt that says you have an existing account with Microsoft, select **Sign in**.
 
-1. Enter the password provided below and sign in.
+1. Enter the password provided below and select **Sign in**.
    * Password: <inject key="AzureAdUserPassword"></inject>
 
 1. If prompted for multifactor authentication, select **Ask Later**.
     
 1. Select **Yes** to stay signed in.
-
-1. Do not change country.
-
-1. For **Phone number**, enter 0123456789.
-
-1. Complete your account info and select **Get started** to sign up for your Microsoft Power Platform trial.
-
-1. At the confirmation screen, click **Get Started**.
-
-1. If you see a prompt to enter contact details, click on **X** to close the popup window.
 
 ### Task 2: Create environment
 
@@ -69,4 +53,4 @@ In this Module-lab 0, you will acquire a Power Platform trial and access the Pow
 
 1. Your **Practice** environment should now show in the list of Environments.
 
-> Your environment may take a few minutes to provision. Refresh the page if needed.
+   >**Note** : Your environment may take a few minutes to provision. Refresh the page if needed.
