@@ -45,11 +45,11 @@ the unique code assigned to the visit when a visit is created.
 
 5.  Click **New flow** and select **Automated cloud flow**.
 
-6.  Enter "Visit Notification" for **Flow name**.
+6.  Enter `Visit Notification` for **Flow name**.
 
 7.  In **Choose your flow's trigger**, search for **Dataverse**.
 
-8.  Select the trigger **When a row is added, modified or deleted**, and then click **Create**.
+8.  Select the trigger **When a row is added, modified or deleted**, and then select **Create**.
 
 9.  Populate the trigger conditions for the flow:
 
@@ -59,7 +59,8 @@ the unique code assigned to the visit when a visit is created.
 
     3.  Select **Organization** for **Scope**
 
-    4.  On the trigger step, click the ellipsis (**...**) and click **Rename**. Rename this trigger **"When a visit is added"**. This is a good practice, so you and other flow editors can understand the purpose of the step without having to dive into the details.
+    4.  On the trigger step, click the ellipsis (**...**) and click **Rename**. Rename this trigger **"When a visit is added"**.    
+        This is a good practice, so you and other flow editors can understand the purpose of the step without having to dive into the details.
 
 ### Task 2: Create a step to get the visitor row
 
@@ -75,7 +76,8 @@ the unique code assigned to the visit when a visit is created.
 
 6.  From the Dynamic content list that shows up, search and select for the **Visitor (Value)**. In this step, you are looking up the Contact for the Visit row that was created to trigger this flow. Since email address is part of the Contact table, you will need this information to send the email to the visitor.
 
-7. On this action, click the ellipsis (**...**) and click **Rename**. Rename this action **"Get the Visitor"**. This is a good practice, so you and other flow editors can understand the purpose of the step without having to dive into the details.
+7. On this action, click the ellipsis (**...**) and click **Rename**. Rename this action **"Get the Visitor"**.                     
+   This is a good practice, so you and other flow editors can understand the purpose of the step without having to dive into the details.
 
 ### Task 3: Create a step to send an email to the visitor
 
@@ -107,13 +109,13 @@ the unique code assigned to the visit when a visit is created.
        Bellows College
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-8.  Highlight the **{First Name}** text. Replace it with the **First Name** field from the **Dynamic content** list.
+8.  Highlight the **{First Name}** text. Replace it with the **First Name** field from the **Get the Visitor** step.
 
-9.  Highlight the **{Scheduled Start}** text. Replace it with the **Scheduled Start** field **Dynamic content** list.
+9.  Highlight the **{Scheduled Start}** text. Replace it with the **Scheduled Start** field **When a visit is added** step.
 
-10. Highlight the **{Scheduled End}** text. Replace it with the **Scheduled End** field from the **Dynamic content** list.
+10. Highlight the **{Scheduled End}** text. Replace it with the **Scheduled End** field from the **When a visit is added** step.
 
-11. Click **Save**.
+11. Select **Save**.
 
     Leave this flow tab open for the next task. You flow should look approximately like the following:
 
@@ -162,4 +164,4 @@ After a short delay, you should see an email in your inbox, since you populated 
 
 ## Challenges
 
-- Play around with the formatting on the email. How can you make it look more professional?
+- Experiment with the formatting on the email. How can you make it look more professional?
