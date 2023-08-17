@@ -42,8 +42,9 @@ We will follow the below outline to design the canvas app:
     > **NOTE:** *If a Dataverse connection does not exist:*
     > - Select **New Connection**
     > - Locate **Microsoft Dataverse**
-    > - Click **Create**
-
+    > - Select **Create**
+    > - **Sign in** and select **Allow access**
+    
 5.  Locate and select the **Visits** table you created in the previous lab.
 
 6.  Select the **Connect** button in the bottom right corner.
@@ -66,7 +67,7 @@ In this task, you will customize the header text on each of the three screens fo
 
 1.  You are on the Browse screen. Select the **Visits** label on the screen.
 
-1.  On the right side of the screen, under the Properties tab, update the **Text** control property to **“Bellows College Visits”**.
+1.  On the right side of the screen, under the Properties tab, update the **Text** control property to `Bellows College Visits`.
 
 1. In the properties, change the **Font size** to **24**.
 
@@ -76,7 +77,7 @@ In this task, you will customize the header text on each of the three screens fo
 
 1.  Select the **Visits** label on the screen.
 
-1.  On the right side of the screen, under the properties tab, update the **Text** control property to **“Visit Details”**.
+1.  On the right side of the screen, under the properties tab, update the **Text** control property to `Visit Details`.
 
 1.  Click in the blank background of the screen to see the updated text on your Details screen.
 
@@ -84,7 +85,7 @@ In this task, you will customize the header text on each of the three screens fo
 
 1.  Select the **Visits** label on the screen.
 
-1.  On the right side of the screen, under the properties tab, replace the text in the **Text** control property with **“Edit Details”**.
+1.  On the right side of the screen, under the properties tab, replace the text in the **Text** control property with `Edit Details`.
 
 1.  Click in the blank background of the screen to see the updated text on your Edit screen.
 
@@ -118,7 +119,3 @@ In this task, you will test out your new app.
 8.  On the top right of the screen, click the **X** Icon to return to the canvas app editor.
 
 Congratulations, You have created and configured your first canvas app.
-
-## Challenges
-
-- Add the following columns to the forms in DetailScreen1 and EditScreen1: Actual Start, Actual End, Code, Scheduled Start, & Scheduled End
