@@ -58,11 +58,11 @@ We would like to assign each visit a unique number that can be easily entered an
 
 1. Using the navigation on the left select **Tables**.
 
-1. Click **+ New table**.
+1. Select **+ New table** and choose **+ New table**. 
 
-1. Enter **Visit** for **Display Name**. Leave other fields at default.
+1. Enter `Visit` for **Display Name**. Leave other fields at default.
 
-1. Click **Save**.
+1. Select **Save**.
 
 1. Under the **Schema** section, select **Columns**.
 
@@ -70,7 +70,7 @@ We would like to assign each visit a unique number that can be easily entered an
 
 	- Select **+ New column**.
 
-	- Enter **Scheduled Start** for **Display name**.
+	- Enter `Scheduled Start` for **Display name**.
 
 	- Select **Date and Time** for **Data type**.
 
@@ -80,13 +80,13 @@ We would like to assign each visit a unique number that can be easily entered an
 
 	- In **Time zone adjustment**, select **Time zone independent**.
 
-	- Click **Save**.
+	- Select **Save**.
 
 1. Create Scheduled End column
 
 	- Click **+ New column**.
 
-	- Enter **Scheduled End** for **Display name**.
+	- Enter `Scheduled End` for **Display name**.
 
 	- Select **Date and Time** for **Data type**.
 
@@ -96,13 +96,13 @@ We would like to assign each visit a unique number that can be easily entered an
 
 	- In **Time zone adjustment**, select **Time zone independent**.
 
-	- Click **Save**.
+	- Select **Save**.
 
 1. Create Actual Start column
 
 	- Click **+ New column**.
 
-	- Enter **Actual Start** for **Display name**.
+	- Enter `Actual Start` for **Display name**.
 
 	- Select **Date and Time** for **Data type**.
 
@@ -112,13 +112,13 @@ We would like to assign each visit a unique number that can be easily entered an
 
 	- In **Time zone adjustment**, select **Time zone independent**.
 
-	- Click **Save**.
+	- Select **Save**.
 
 1. Create Actual End column
 
 	- Click **+ New column**.
 
-	- Enter **Actual End** for **Display name**.
+	- Enter `Actual End` for **Display name**.
 
 	- Select **Date and Time** for **Data type**.
 
@@ -128,25 +128,25 @@ We would like to assign each visit a unique number that can be easily entered an
 
 	- In **Time zone adjustment**, select **Time zone independent**.
 
-	- Click **Save**.
+	- Select **Save**.
 
 1. Create Code column
 
 	- Click **+ New column**.
 
-	- Enter **Code** for **Display name**.
+	- Enter `Code` for **Display name**.
 
 	- Select **Autonumber** for **Data type**.
 
 	- Select **Date prefixed number** for **Autonumber type**.
 
-	- Click **Save**.
+	- Select **Save**.
 
 1. Create Visitor lookup column
 
 	- Click **+ New column**.
 
-	- Enter **Visitor** for **Display name**.
+	- Enter `Visitor` for **Display name**.
 
 	- Select **Lookup** for **Data type**.
 
@@ -154,9 +154,9 @@ We would like to assign each visit a unique number that can be easily entered an
 
 	- Expand **Advanced options**.
 
-	- Enter **visitor_id** for **Relationship name**.
+	- Enter `visitor_id` for **Relationship name**.
 
-	- Click **Save**.
+	- Select **Save**.
 
 ## Exercise 2: Import Data
 
@@ -194,13 +194,13 @@ We would like to assign each visit a unique number that can be easily entered an
 
 8. Select the **Visits.xlsx** file which has been uploaded in OneDrive and click **Select**.
 
-9. Click **Next**.
+9. Select **Next**.
 
-10. Under **Choose Data** check the box next to the **Visits** Excel workbook.
+10. On the **Power query** > **Choose data** screen, check the **Visits** Excel workbook. 
 
-11. Click **Next**. Do not navigate away from this page until all the contents have been loaded.
+11. Select **Next**. Do not navigate away from this page until all the contents have been loaded.
 
-12. Click **Next**.
+12. Select **Next**.
 
 13. On the **Map tables** section, select **Load to existing table** under the **Load settings**.
 
@@ -217,7 +217,7 @@ We would like to assign each visit a unique number that can be easily entered an
 	| crxxx_ScheduledEnd   | scheduled end   |
 	| crxxx_ScheduledStart | scheduled start |
 
-16. Click **Next**.
+16. Select **Next**.
 
 17. Select **Refresh manually**.
 
@@ -230,8 +230,8 @@ We would like to assign each visit a unique number that can be easily entered an
 	| Select columns  |
 	|:----------------|
 	| Name (Primary)  |
-	| Actual End     | 
-	| Actual Start             |
+	| Actual End      | 
+	| Actual Start    |
 	| Code            |
 	| Scheduled End   |
 	| Scheduled start |
