@@ -1,4 +1,4 @@
-## Lab 5: How to build a simple dashboard
+## Lab 3: How to build a simple dashboard
 
 ## Scenario
 
