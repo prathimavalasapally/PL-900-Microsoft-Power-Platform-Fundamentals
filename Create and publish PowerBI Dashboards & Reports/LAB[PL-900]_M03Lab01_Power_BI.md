@@ -123,7 +123,7 @@ We will follow the below steps to design and create a Power BI dashboard:
 
       Your dashboard should look similar to the following:
 
-      ![](media/5-powerbi-result.png)
+      ![](../Instructions/Labs/media/5-powerbi-result.png)
    
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
    > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
