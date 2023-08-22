@@ -5,16 +5,16 @@
     "BaseURL": "https://github.com/CloudLabs-MOC/PL-900-Microsoft-Power-Platform-Fundamentals",
     "Files": [
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/PL-900-Microsoft-Power-Platform-Fundamentals/blob/prod-new/Create%20and%20publish%20PowerBI%20Dashboards%20%26%20Reports/LAB%5BPL-900%5D_M00Lab00_Setup.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/PL-900-Microsoft-Power-Platform-Fundamentals/prod-new/Create%20and%20publish%20PowerBI%20Dashboards%20%26%20Reports/LAB%5BPL-900%5D_M00Lab00_Setup.md",
         "Order": 1
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/PL-900-Microsoft-Power-Platform-Fundamentals/blob/prod-new/Create%20and%20publish%20PowerBI%20Dashboards%20%26%20Reports/LAB%5BPL-900%5D_M02Lab01_Data_Model.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/PL-900-Microsoft-Power-Platform-Fundamentals/prod-new/Create%20and%20publish%20PowerBI%20Dashboards%20%26%20Reports/LAB%5BPL-900%5D_M02Lab01_Data_Model.md",
         "Order": 2
       },
 
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/PL-900-Microsoft-Power-Platform-Fundamentals/blob/prod-new/Create%20and%20publish%20PowerBI%20Dashboards%20%26%20Reports/LAB%5BPL-900%5D_M03Lab01_Power_BI.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/PL-900-Microsoft-Power-Platform-Fundamentals/prod-new/Create%20and%20publish%20PowerBI%20Dashboards%20%26%20Reports/LAB%5BPL-900%5D_M03Lab01_Power_BI.md",
         "Order": 3
       }
     ]
