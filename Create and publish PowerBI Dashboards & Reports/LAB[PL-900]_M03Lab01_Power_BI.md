@@ -1,4 +1,4 @@
-## Lab 2: How to build a simple dashboard
+## Lab 2: Create and publish PowerBI Dashboards & Reports
 
 ## Scenario
 
