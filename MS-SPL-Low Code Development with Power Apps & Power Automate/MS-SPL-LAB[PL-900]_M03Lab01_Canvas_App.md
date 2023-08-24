@@ -53,7 +53,7 @@ We will follow the below outline to design the canvas app:
 
 8.  After creation has completed, it should look like the image below.
 
-    ![Canvas app created from Visit data.](media/PL-900_lab02_e1_t1.png)
+    ![Canvas app created from Visit data.](../Instructions/Labs/media/PL-900_lab02_e1_t1.png)
 
 9. In the app designer, select the **preview the app** button (Play icon) on the command bar. *(You can also preview the app by pressing F5 on your keyboard.)* Take a look around and see how your app looks out-of-the-box.
 
