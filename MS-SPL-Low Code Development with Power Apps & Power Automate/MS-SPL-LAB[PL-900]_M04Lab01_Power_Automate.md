@@ -1,4 +1,4 @@
-# Lab 4: How to build an automated solution
+# Lab 3: How to build an automated solution
 
 ## Scenario
 
@@ -23,7 +23,7 @@ complete the project:
 
 - Completion of **Lab 0 - Validate lab environment**
 - Completion of **Lab 1 - Data Modeling**
-- Completion of **Lab 3 - How to build a model-driven app**
+- Completion of **Lab 2 - How to build a model-driven app**
 - John Doe contact created with a personal email address populated.
 
 ## Exercise 1: Create Visit Notification flow
