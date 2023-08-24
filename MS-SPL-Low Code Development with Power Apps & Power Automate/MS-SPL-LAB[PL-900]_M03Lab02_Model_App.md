@@ -225,7 +225,7 @@ For simplicity and time’s sake, we will not be addressing some of the Visit co
 
    Your running app should look approximately like the following:
 
-   ![](media/PL-900_lab03_e2_t2_s4.png)
+   ![](../Instructions/Labs/media/PL-900_lab03_e2_t2_s4.png)
 
 You have created and configured your first model-driven app.
 
