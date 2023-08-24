@@ -26,7 +26,7 @@ To prepare your learning environments you will:
 
 - Refer to the following image for the metadata description (tables and relationships).
 
-  ![data model document](../../Allfiles/CampusManagement.png)
+  ![data model document](../Allfiles/CampusManagement.png)
 - Create Visit table
 - Import Visit data using an Excel spreadsheet
 
