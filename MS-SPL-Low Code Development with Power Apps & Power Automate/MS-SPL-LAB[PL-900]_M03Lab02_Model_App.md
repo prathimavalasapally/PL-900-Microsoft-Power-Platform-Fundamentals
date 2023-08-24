@@ -1,4 +1,4 @@
-# Lab 3: How to build a model-driven app
+# Lab 2: How to build a model-driven app
 
 ## Scenario
 
