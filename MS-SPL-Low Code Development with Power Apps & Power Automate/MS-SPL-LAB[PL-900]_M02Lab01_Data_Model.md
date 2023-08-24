@@ -236,11 +236,11 @@ We would like to assign each visit a unique number that can be easily entered an
 	| Scheduled End   |
 	| Scheduled start |
 	
- 	![](media/Mod2-t2-s19a.png)
+ 	![](../Instructions/Labs/media/Mod2-t2-s19a.png)
 	
 20. Below are the outputs you can view.
 
-	![](media/Mod2-t2-s19b.png)
+	![](../Instructions/Labs/media/Mod2-t2-s19b.png)
 	
 
 ### Task 3: Verify Data Import
