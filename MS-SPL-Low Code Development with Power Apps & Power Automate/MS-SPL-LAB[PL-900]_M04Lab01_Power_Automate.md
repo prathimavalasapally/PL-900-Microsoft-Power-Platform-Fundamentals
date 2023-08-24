@@ -119,7 +119,7 @@ the unique code assigned to the visit when a visit is created.
 
     Leave this flow tab open for the next task. You flow should look approximately like the following:
 
-    ![Example of flow steps.](media/4-Flow.png)
+    ![Example of flow steps.](../Instructions/Labs/media/4-Flow.png)
 
 ### Task 4: Validate and test the flow
 
