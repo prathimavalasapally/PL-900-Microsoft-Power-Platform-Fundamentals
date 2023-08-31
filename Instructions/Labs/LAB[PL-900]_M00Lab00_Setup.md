@@ -23,6 +23,8 @@ In this Module-lab 0, you will acquire a Power Platform trial and access the Pow
 
 1. Under **Let's get started**, enter the email address <inject key="AzureAdUserEmail"></inject> in the text box and select **Start your free trial**.
 
+   ![](media/mailid3.png)
+
 1. If you see a prompt that says you have an existing account with Microsoft, select **Sign in**.
 
 1. Enter the password provided below and select **Sign in**.
