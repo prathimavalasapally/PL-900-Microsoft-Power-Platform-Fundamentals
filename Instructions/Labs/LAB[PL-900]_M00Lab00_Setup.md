@@ -17,7 +17,7 @@ In this Module-lab 0, you will acquire a Power Platform trial and access the Pow
 
 1. Navigate to <https://powerapps.microsoft.com> and select **Start free**.
 
-   ![](media/startfreen1.png)
+   ![](media/startfreen2.png)
 
    ![](media/startusingapp.png)
 
