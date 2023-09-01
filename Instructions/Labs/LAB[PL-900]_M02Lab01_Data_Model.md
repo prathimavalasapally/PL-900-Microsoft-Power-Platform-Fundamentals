@@ -174,7 +174,7 @@ We would like to assign each visit a unique number that can be easily entered an
 
 5. Locate and select the **Visits.xlsx** file and click **Open**.
 
- **Note:** This file is located in the **C:\AllFiles\PL-900-Microsoft-Power-Platform-Fundamentals-master\Allfiles** folder on your machine.
+   > **Note:** This file is located in the **C:\AllFiles\PL-900-Microsoft-Power-Platform-Fundamentals-master\Allfiles** folder on your machine.
  
 ### Task 2: Create a dataflow
 
@@ -223,7 +223,7 @@ We would like to assign each visit a unique number that can be easily entered an
 
 18. Click **Publish**.
 
-**Note:** It can take several minutes for your data to import into your table. Don’t worry if you get a few errors, that is normal, and will not impact the rest of the course.
+> **Note:** It can take several minutes for your data to import into your table. Don’t worry if you get a few errors, that is normal, and will not impact the rest of the course.
 
 19. Under **Visit columns and data** section, click on drop-down button **more** select the following, and click on **save**.
 
